@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.concurrent.TimeUnit;
 
-public class Login {
+public class LoginPage {
 
-    public Login(WebDriver driver){
+    public LoginPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
 
@@ -33,30 +33,9 @@ public class Login {
         boton.click();
     }
 
-    @FindBy(id="search_query_top")
-    private WebElement busqueda;
-    public void Buscar(String busquedaParam){
-        busqueda.sendKeys(busquedaParam);
-    }
-
-    @FindBy(name = "submit_search")
-    private WebElement botonBuscar;
-    public void PressBuscar(){
-        botonBuscar.submit();
-    }
-
-    @FindBy(className = "logout")
-    private  WebElement logOut;
-    public void LogOut(){
-        logOut.click();
-    }
-
-    public void RealizarCamino(String email, String password, String busqueda){
+    public void Iniciar(String email, String password){
         WriteEmail(email);
         WritePassword(password);
         PressLogIn();
-        Buscar(busqueda);
-        PressBuscar();
-        LogOut();
     }
 }

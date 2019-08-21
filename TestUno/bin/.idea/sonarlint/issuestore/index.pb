@@ -1,0 +1,21 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+R
+"src/test/java/prim/Primertest.java,1\8\1871d1aa95097f1071f25fbd251174a5c2cc1f4e
+S
+#src/test/java/prim/SegundoTest.java,f\9\f9fe4e6d70dcd858437bcafd89e30afbe901fffe
+P
+ src/test/java/prim/BaseTest.java,7\1\71325449b87b2d7728e16f87e1ee15a5cced8613
+i
+9src/test/java/selenium/page/GoogleResultsPageFactory.java,e\e\ee095264c847fae7921c1d8a41b87549fab3b34c
+j
+:src/test/java/selenium/page/BusquedaGooglePageFactory.java,d\c\dcf8b470166b8d4a2bf8b9a42a367576120dc502
+i
+9src/test/java/selenium/page/BusquedaGooglePageObject.java,2\1\217eff604a26100ca57c74b3bfd05c0a03de7374
+X
+(src/test/java/selenium/miPrimerTest.java,7\4\743d5ee32310a438ebd5988a0607af0904266b89
+_
+/src/test/java/selenium/page/CreateAccount1.java,5\9\59a9c277b43f13eab9a79b770c0c5f17fef42e2b
+[
++src/test/java/selenium/page/DuckDuckGo.java,6\0\6041ec4184ea2dc0a1c44a8022ecc8aeb0c1ece5
